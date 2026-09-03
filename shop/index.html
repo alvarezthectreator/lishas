@@ -10,6 +10,18 @@
 :root{--cream:#fbf3ea;--cream-deep:#f6e8dc;--pink-pale:#f7dce6;--pink-mid:#efb8ce;--pink-deep:#c24a80;--pink-text:#a83c6e;--plum:#4a2e3b;--plum-soft:#7a5a67;--gold:#d9a85c;--sage:#c7cfaf;--white:#fffdfb}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--plum);font-family:Nunito,sans-serif;overflow-x:hidden}h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;font-weight:500}.container{width:min(1120px,calc(100% - 48px));margin:auto}.announce{position:relative;padding:9px 16px;background:linear-gradient(135deg,var(--pink-mid),var(--pink-deep));color:var(--white);font-size:11.5px;font-weight:700;letter-spacing:.04em;text-align:center}.announce-account{position:absolute;top:50%;right:24px;display:flex;align-items:center;gap:6px;padding:6px 16px;transform:translateY(-50%);border:0;border-radius:20px;background:rgba(255,255,255,.18);color:var(--white);font:700 11px Nunito;cursor:pointer}.announce-account svg{width:13px;height:13px}.site-nav{position:sticky;top:0;z-index:50;border-bottom:2px solid var(--pink-pale);background:var(--white)}.nav-inner{width:min(1120px,calc(100% - 48px));margin:auto;padding:18px 0;display:flex;align-items:center;justify-content:space-between}.nav-logo{color:var(--pink-mid);font:600 22px 'Cormorant Garamond',serif;text-decoration:none}.nav-links{display:flex;gap:34px;list-style:none;margin:0;padding:0}.nav-links a{padding:6px 4px;color:var(--plum);font-size:13px;font-weight:700;letter-spacing:.03em;text-decoration:none}.nav-links a:hover,.nav-links a.active{color:var(--pink-deep)}.nav-links a.active{border-radius:6px;background:var(--pink-pale)}.nav-icons{display:flex;align-items:center;gap:16px}.nav-icons a{position:relative;display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--pink-pale);color:var(--pink-deep)}.nav-icons svg{width:17px;height:17px}.cart-count{position:absolute;top:-4px;right:-4px;display:flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;background:var(--pink-deep);color:var(--white);font-size:9.5px}.nav-toggle{display:none;border:0;background:none;color:var(--plum);cursor:pointer}.nav-toggle svg{width:24px;height:24px}.breadcrumb-wrap{padding:44px 24px 0}.breadcrumb{width:min(1120px,100%);margin:auto;padding:16px 26px;border-radius:14px;background:var(--pink-pale);color:var(--plum-soft);font-size:13.5px}.breadcrumb a{color:var(--pink-text);font-weight:700;text-decoration:none}.breadcrumb span{margin:0 6px}.shop-head{width:min(1120px,100%);margin:auto;padding:40px 24px 8px}.shop-head h1{display:inline-block;margin:0;font-size:42px}.shop-head p{margin:8px 0 0;color:var(--plum-soft);font-size:15px}.shop-grid-wrap{padding:30px 24px 100px}.shop-grid{width:min(1120px,100%);margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:26px}.cat-card{display:block;overflow:hidden;border-radius:20px;background:var(--white);box-shadow:0 12px 28px -18px rgba(122,58,90,.3);text-decoration:none}.cat-card:hover{transform:translateY(-4px);box-shadow:0 20px 34px -18px rgba(122,58,90,.4)}.cat-thumb{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1;overflow:hidden;background:linear-gradient(160deg,var(--cream-deep),var(--pink-pale))}.cat-thumb.solid{background:linear-gradient(160deg,var(--pink-mid),var(--pink-deep))}.cat-thumb img{width:100%;height:100%;object-fit:cover}.cat-thumb svg{width:54px;height:54px;color:var(--pink-deep);opacity:.75}.cat-thumb.solid svg{color:var(--white);opacity:.9}.cat-label{position:absolute;right:14px;bottom:14px;left:14px;padding:12px 16px;border-radius:12px;background:rgba(255,253,251,.93);text-align:center}.cat-label h3{margin:0 0 2px;font-size:17px;line-height:1.25}.cat-label span{color:var(--pink-text);font-size:11.5px;font-weight:700;letter-spacing:.02em}.site-footer{padding:60px 0 0;border-top:2px solid var(--pink-pale);background:var(--white)}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-bottom:48px}.footer-grid h4{margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid rgba(74,46,59,.12);font-size:18px}.brand{margin-bottom:10px;color:var(--pink-mid);font:600 19px 'Cormorant Garamond',serif}.footer-grid p{margin:0 0 18px;color:var(--plum-soft);font-size:13.5px;line-height:1.6}.footer-grid ul{list-style:none;margin:0;padding:0}.footer-grid li{margin-bottom:10px}.footer-grid a{color:var(--plum-soft);font-size:13.5px;text-decoration:none}.footer-grid a:hover{color:var(--pink-deep)}.footer-bottom{padding:18px 0;background:var(--plum);color:rgba(255,255,255,.65);font-size:12.5px;text-align:center}.footer-bottom p{margin:0}.footer-bottom a{color:rgba(255,255,255,.85)}
 @media(max-width:900px){.nav-links{position:absolute;top:100%;left:0;right:0;display:flex;flex-direction:column;gap:0;max-height:0;overflow:hidden;border-bottom:1px solid var(--pink-pale);background:var(--white);transition:max-height .25s ease}.nav-links.open{max-height:320px}.nav-links a{display:block;width:100%;padding:14px 32px;border-bottom:1px solid var(--pink-pale);border-radius:0}.nav-toggle{display:block}.announce-account{display:none}.shop-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}@media(max-width:520px){.nav-inner{width:calc(100% - 40px)}.shop-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.shop-head h1{font-size:36px}}
 </style>
+<script>
+	(function () {
+		var localCart = '../cart/index.html';
+		document.addEventListener('click', function (event) {
+			var link = event.target.closest && event.target.closest('a');
+			if (link && /lishashandmadecreations\.co\.uk\/cart\//.test(link.href)) {
+				event.preventDefault();
+				window.location.assign(localCart);
+			}
+		}, true);
+	}());
+</script>
 </head>
 <body>
 <div class="announce">ORDERS WILL TAKE 2-6 WORKING DAYS FOR INSTOCK ITEMS — BACK ORDERS WILL TAKE 5-9 WORKING DAYS FOR DISPATCH <a class="announce-account" href="https://lishashandmadecreations.co.uk/my-account/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>MY ACCOUNT</a></div>
@@ -26,5 +38,34 @@
 </div></div></main>
 <footer class="site-footer"><div class="container footer-grid"><div><div class="brand">Lishas Handmade Creations</div><p>Creating unique, personalised treasures that tell your story. Every piece is lovingly handcrafted just for you in our UK studio.</p></div><div><h4>Quick Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="index.html">Shop All</a></li><li><a href="../how-it-works/index.html">How It Works</a></li><li><a href="../about-us/index.html">About Us</a></li><li><a href="../contact-us/index.html">Contact</a></li></ul></div><div><h4>Shop</h4><ul><li><a href="index.html">All Categories</a></li><li><a href="https://lishashandmadecreations.co.uk/product-category/cleaning-products/">Home Fragrance</a></li><li><a href="https://lishashandmadecreations.co.uk/product-category/bathbomb/">Bath Products</a></li></ul></div><div><h4>Help &amp; Info</h4><ul><li><a href="../contact-us/index.html">Contact Us</a></li><li><a href="https://lishashandmadecreations.co.uk/my-account/">My Account</a></li><li><a href="https://lishashandmadecreations.co.uk/cart/">Cart</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 Lishas Handmade Creations. All rights reserved. Handmade with love in the UK.</p></div></footer>
 <script>document.getElementById('navToggle').addEventListener('click',function(){var links=document.getElementById('navLinks');var open=links.classList.toggle('open');this.setAttribute('aria-expanded',String(open));});</script>
+<script>
+	document.addEventListener('click', function (event) {
+		var link = event.target.closest('a[href^="https://lishashandmadecreations.co.uk/"]');
+		if (!link) return;
+		var target = new URL(link.href).pathname;
+		var routes = {
+			'/product-category/activity-pack/': '../product-category/activity-pack/index.html',
+			'/product-category/bathbomb/': '../product-category/bathbomb/index.html',
+			'/product-category/cleaning-products/': '../product-category/cleaning-products/index.html',
+			'/product-category/children/soap-dough/': '../product/soap-sponges/index.html',
+			'/cart/': '../cart/index.html',
+			'/my-account/': '../contact-us/index.html'
+		};
+		event.preventDefault();
+		window.location.href = routes[target] || 'index.html';
+	});
+	document.querySelectorAll('a[href^="https://lishashandmadecreations.co.uk/"]').forEach(function (link) {
+		var target = new URL(link.href).pathname;
+		var routes = {
+			'/product-category/activity-pack/': '../product-category/activity-pack/index.html',
+			'/product-category/bathbomb/': '../product-category/bathbomb/index.html',
+			'/product-category/cleaning-products/': '../product-category/cleaning-products/index.html',
+			'/product-category/children/soap-dough/': '../product/soap-sponges/index.html',
+			'/cart/': '../cart/index.html',
+			'/my-account/': '../contact-us/index.html'
+		};
+		if (routes[target]) link.href = routes[target];
+	});
+</script>
 </body>
 </html>

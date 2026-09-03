@@ -29,6 +29,16 @@
       .nav-links a{display:block;width:100%;padding:14px 20px;border-bottom:1px solid rgba(74,46,59,.06)}
       .nav-toggle{display:block}
     }
+    .site-footer{background:var(--plum);color:var(--cream);padding:54px 0 24px}
+    .footer-inner{width:min(1120px,calc(100% - 48px));margin:auto;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:42px}
+    .footer-brand h2{margin:0;color:var(--white);font-size:28px}
+    .footer-brand p{max-width:300px;margin:12px 0 0;color:rgba(255,253,251,.7);font-size:14px;line-height:1.7}
+    .footer-column h3{margin:0 0 14px;color:var(--pink-mid);font-size:18px}
+    .footer-column a{display:block;margin:8px 0;color:rgba(255,253,251,.78);font-size:13.5px;text-decoration:none}
+    .footer-column a:hover{color:var(--white)}
+    .footer-bottom{width:min(1120px,calc(100% - 48px));margin:40px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);color:rgba(255,253,251,.55);font-size:12px;text-align:center}
+    @media (max-width:700px){.footer-inner{grid-template-columns:1fr 1fr;gap:28px}.footer-brand{grid-column:1/-1}}
+    @media (max-width:460px){.footer-inner{grid-template-columns:1fr}.footer-brand{grid-column:auto}}
   </style>
 </head>
 <body>
@@ -74,6 +84,27 @@
     <section class="expect"><div class="container"><header class="section-head"><span class="tag">After you place your order</span><h2>What to Expect</h2><p>Here&rsquo;s what happens between &ldquo;order placed&rdquo; and &ldquo;parcel on your doorstep&rdquo;.</p></header><div class="expect-grid"><article class="e-item"><span class="e-num">1</span><div><h4>Order Confirmation</h4><p>You&rsquo;ll receive an email confirming your order details and personalisation choices.</p></div></article><article class="e-item"><span class="e-num">2</span><div><h4>Handcrafted Creation</h4><p>We create your item from scratch, paying attention to every detail.</p></div></article><article class="e-item"><span class="e-num">3</span><div><h4>Quality Checking</h4><p>Each item is thoroughly checked to meet our high standards.</p></div></article><article class="e-item"><span class="e-num">4</span><div><h4>Beautiful Packaging</h4><p>Your item is carefully packaged and gift-wrapped, ready to delight.</p></div></article><article class="e-item"><span class="e-num">5</span><div><h4>Dispatch Notification</h4><p>You&rsquo;ll receive tracking information the moment your order ships.</p></div></article><article class="e-item"><span class="e-num">6</span><div><h4>Delivered to You</h4><p>Your handmade treasure arrives at your door, ready to enjoy or gift.</p></div></article></div></div></section>
     <section class="cta"><h2>Ready to Get Started?</h2><p>Browse the collection and start creating your perfect personalised gift today.</p><a class="cta-btn" href="/shop/">Start Shopping</a></section>
   </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h2>Lishas Handmade Creations</h2>
+        <p>Thoughtful gifts, handmade with love and personalised especially for you.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="../index.html">Home</a>
+        <a href="index.html">How It Works</a>
+        <a href="https://lishashandmadecreations.co.uk/about-us/">About Us</a>
+      </div>
+      <div class="footer-column">
+        <h3>Need Help?</h3>
+        <a href="https://lishashandmadecreations.co.uk/shop/">Shop</a>
+        <a href="https://lishashandmadecreations.co.uk/contact-us/">Contact Us</a>
+        <a href="https://lishashandmadecreations.co.uk/my-account/">My Account</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Lishas Handmade Creations. Made with love in the UK.</div>
+  </footer>
   <script>
     document.getElementById('navToggle').addEventListener('click', function(){
       var links = document.getElementById('navLinks');
